@@ -1,0 +1,195 @@
+
+
+body{
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 0;
+    background-color: #000000;
+}
+
+/* nav*/
+nav{
+    background-color: black;
+    position: fixed;
+    width: 1280px;
+    height: 100px;
+    left: 0;
+    right:0;
+    top: 0px;
+    z-index: 200;
+}
+
+nav.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo{
+position: absolute;
+width: 313px;
+height: 100px;
+left: 0px;
+top: 3px;
+}
+
+.home{
+    position: absolute;
+    width: 66px;
+    height: 31px;
+    left: 808px;
+    top: 23px;
+    
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: ease all 0.2s
+
+
+}
+
+.majors{
+    position: absolute;
+    width: 77px;
+    height: 31px;
+    left: 922px;
+    top: 23px;
+    
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: ease all 0.2s
+
+}
+
+.about{
+position: absolute;
+width: 69px;
+height: 31px;
+left: 1043px;
+top: 23px;
+
+font-family: 'Chakra Petch';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 31px;
+
+color: #FFFFFF;
+text-decoration: none;
+transition: ease all 0.2s
+
+
+}
+
+.about:hover{
+    color:#00DF9A ;
+
+}
+
+.majors:hover{
+    color:#00DF9A ;
+
+}
+
+.home:hover{
+    color:#00DF9A ;
+
+}
+
+.rectangle{
+position: fixed;
+width: 104px;
+height: 27px;
+left: 1150px;
+top: 23px;
+
+background: #FFFFFF;
+border-radius: 12px;
+transition: ease all 0.2s
+}
+
+.sign-in-class:hover a{
+    background-color:#00DF9A ;
+}
+.sign-in{
+    position: absolute;
+width: 70px;
+height: 20px;
+left: 1177px;
+top: 26px;
+
+font-family: 'Chakra Petch';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 20px;
+color:#000000;
+text-decoration: none;
+transition: ease all 0.2s
+
+}
+
+.major{
+    position: absolute;
+width: 679px;
+height: 48px;
+left: 300px;
+top: 322px;
+
+background: #D9D9D9;
+border-radius: 12px;
+padding-left: 10px;
+font-family: 'Chakra Petch';
+
+}
+
+.search-btn{
+position: absolute;
+width: 59px;
+height: 55px;
+left: 935px;
+top: 322px;
+
+background: #11B4E8;
+border-radius: 12px;
+}
+.maginfy{
+ position: absolute;
+ width: 59px;
+ height: 55px;
+ left: 950px;
+ top: 335px;
+}
+
+.intro-msg{
+    position: absolute;
+width: 535px;
+height: 36px;
+left: 372px;
+top: 247px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.future{
+    color: #EF732E;
+}
